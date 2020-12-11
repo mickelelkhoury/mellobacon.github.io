@@ -34,19 +34,20 @@ body {
   padding: 350px 0;
   position: fixed;
   height: 100%;
-  background-color: black;
   color: white;
   overflow-x: hidden;
   width: 100px;
   z-index: 1;
   text-align: center;
 }
+.icon {
+  font-size: 30px;
+}
 #content {
   margin-left: 100px;
 }
 
 #Home {
-  /*background-color: gainsboro;*/
   height: 100vh;
   padding: 350px 0;
 }
