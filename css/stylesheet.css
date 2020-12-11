@@ -17,6 +17,7 @@ body {
 
 #navbarbrand {
   color:white;
+  margin-right: auto;
 }
 
 #navigation {
@@ -27,10 +28,39 @@ body {
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
+
+#sidebar {
+  float: left;
+  padding: 350px 0;
+  position: fixed;
+  height: 100%;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+#content {
+  margin-left: 100px;
+}
+
 #Home {
   background-color: gainsboro;
   height: 100vh;
-  padding: 50px 0;
+  padding: 350px 0;
+}
+#About {
+  background-color: green;
+  height: 100vh;
+}
+#Skills {
+  background-color: pink;
+  height: 100vh;
+}
+#Projects {
+  background-color: orange;
+  height: 100vh;
 }
 #title {
   text-align: center;
