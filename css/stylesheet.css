@@ -58,9 +58,42 @@ body {
 }
 
 #About {
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.096);
   height: 100vh;
+  padding: 250px 0;
 }
+.image {
+  float: right;
+}
+.content {
+  margin-left: -100px;
+}
+.desc {
+  padding-bottom: 10px;
+}
+.desc p {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+.progressbars > .progress + .progress {
+  margin-top: 5em;
+}
+.progress {
+  max-width: 600px;
+  height: 10px;
+  border-radius: 0;
+}
+.label {
+  padding-top: 20px;
+  margin: 10px 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: white;
+}
+#skillbar {
+  background-color: red;
+}
+
 #Skills {
   background-color: pink;
   height: 100vh;
@@ -69,6 +102,8 @@ body {
   background-color: orange;
   height: 100vh;
 }
+
+
 #title {
   background-color: #96969675;
   font-family: 'Roboto Mono', monospace;
@@ -80,3 +115,25 @@ body {
   font-size: 20px;
   color: white;
 }
+.section-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 70px;
+  color: white;
+  margin-top: -180px;
+  padding-bottom: 100px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than tablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
