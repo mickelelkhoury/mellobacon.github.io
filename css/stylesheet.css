@@ -46,6 +46,7 @@ body {
   position: fixed;
   height: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
   width: 100px;
   z-index: 1;
   text-align: center;
@@ -193,7 +194,7 @@ body {
 #title {
   background-color: #96969675;
   font-family: 'Roboto Mono', monospace;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
 }
 #subtitle {
@@ -209,6 +210,10 @@ body {
   padding-bottom: 100px;
 }
 
+
+
+
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
@@ -219,7 +224,56 @@ body {
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .progressbars {
+    max-width: 500px;
+  }
+  .image {
+    height: 410px;
+    width: 360px;
+    margin-top: -95px;
+  }
+  #image {
+    width: 640px;
+    height: 640px;
+    margin-top: -250px;
+    margin-left: -109px;
+  }
+  .content {
+    margin-left: 0;
+  }
+  .section-title {
+    padding-bottom: 0;
+  }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1600px) {
+  .progressbars {
+    max-width: 100%;
+  }
+  .image {
+    height: 450px;
+    width: 400px;
+    margin-top: 0;
+  }
+  #title {
+    font-size: 60px;
+  }
+  #image {
+    width: 800px;
+    height: 800px;
+    margin-top: -280px;
+    margin-left: -290px;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .section-title {
+    padding-bottom: 10px;
+  }
+}
